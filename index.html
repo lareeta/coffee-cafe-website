@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caffe Dream</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+    </style>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Dream cafe!</h1>
+    </header>
+
+    <form>
+      <p>
+        We having three types of coffee. What coffee would you like to order?
+      </p>
+      <input type="radio" id="latte" name="type_coffee" value="latte" />
+      <label for="latte">Latte</label><br />
+      <input type="radio" id="capuchino" name="type_coffee" value="capuchino" />
+      <label for="capuchino">Capuchino</label><br />
+      <input type="radio" id="americano" name="type_coffee" value="americano" />
+      <label for="americano">Americano</label><br />
+
+      <br />
+
+      <p>Please, choose size cup</p>
+      <input type="radio" id="small" name="size_coffee" value="small" />
+      <label for="small">Small</label><br />
+      <input type="radio" id="medium" name="size_coffee" value="medium" />
+      <label for="medium">Medium</label><br />
+      <input type="radio" id="large" name="size_coffee" value="large" />
+      <label for="large">Large</label><br />
+
+      <br />
+
+      <p>Please, choose topping</p>
+      <input
+        type="checkbox"
+        id="whiteSugar"
+        name="topping_coffee"
+        value="whiteSugar"
+      />
+      <label for="whiteSugar">White sugar</label><br />
+      <input
+        type="checkbox"
+        id="caneSugar"
+        name="topping_coffee"
+        value="caneSugar"
+      />
+      <label for="caneSugar">Cane sugar</label><br />
+      <input
+        type="checkbox"
+        id="cinnamon"
+        name="topping_coffee"
+        value="cinnamon"
+      />
+      <label for="cinnamon">Cinnamon</label><br />
+
+      <div id="price"></div>
+      <div id="order"></div>
+      <div id="recipe"></div>
+
+      <br />
+
+      <input type="button" value="Submit" id="submitButton" />
+      <script src="coffee.js"></script>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+style {
+    font-family: 'Indie Flower', cursive;
+}
+
+body {
+    background: #63c589 url("img_tree.png") no-repeat top left;
+    font-family: 'Indie Flower';
+    font-size: 23px;
+}
+
+p {
+    font: bold  110%;
+}
+  
+h1 {
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(3, 41, 40);
+    text-align: center;
+        
+}
+
+form {
+    margin-left: 290px;
+    margin-right: auto;
+}
